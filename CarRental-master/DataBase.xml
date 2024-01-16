@@ -1,0 +1,150 @@
+<Base>
+  <shop>
+    <Name>Аренда автомобилей на проспекте Ленина</Name>
+    <PhoneNumber>8-800-555-35-35</PhoneNumber>
+    <Adress> Нижний Новгород, проспект Ленина</Adress>
+    <BeginWork>9:00</BeginWork>
+    <EndWork>00:00</EndWork>
+    <Cars>
+      <Car>
+        <Name>Skoda Rapid</Name>
+        <CreationDate>2021год</CreationDate>
+        <Index>000001</Index>
+        <Producer>Германия</Producer>
+        <Price>2000</Price>
+        <StockQuantity>5</StockQuantity>
+        <Description>Передний привод, Цвет:синий, есть кондиционер.</Description>
+        <Category>Легковой автомобиль</Category>
+      </Car>
+      <Car>
+        <Name>Volkswagen Tiguan</Name>
+        <CreationDate>2020</CreationDate>
+        <Index>000002</Index>
+        <Producer>Германия</Producer>
+        <Price>40000</Price>
+        <StockQuantity>3</StockQuantity>
+        <Description>Полный привод, Цвет: серебристый, есть кондиционер.</Description>
+        <Category>Внедорожник</Category>
+      </Car>
+      <Car>
+        <Name>Renault Kaptur</Name>
+        <CreationDate>2021</CreationDate>
+        <Index>000003</Index>
+        <Producer>Франция</Producer>
+        <Price>3700</Price>
+        <StockQuantity>2</StockQuantity>
+        <Description>Передний привод, Цвет:черный</Description>
+        <Category>Внедорожник</Category>
+      </Car>
+      <Car>
+        <Name>Toyota Camry</Name>
+        <CreationDate>2020</CreationDate>
+        <Index>000004</Index>
+        <Producer>Япония</Producer>
+        <Price>3900</Price>
+        <StockQuantity>6</StockQuantity>
+        <Description>Передний привод, Цвет:черный, есть кондиционер.</Description>
+        <Category>Легковой автомобиль</Category>
+      </Car>
+    </Cars>
+    <Employees>
+      <Employee>
+        <Firstname>Павел</Firstname>
+        <Lastname>Киров</Lastname>
+        <PhoneNumber>7986345761</PhoneNumber>
+        <Status>Сотрудник</Status>
+        <Experience>7 лет</Experience>
+        <WorkBegin>8:30</WorkBegin>
+        <WorkEnd>17:00</WorkEnd>
+      </Employee>
+      <Employee>
+        <Firstname>Никита</Firstname>
+        <Lastname>Смирнов</Lastname>
+        <PhoneNumber>8976543091</PhoneNumber>
+        <Status>Сотрудник</Status>
+        <Experience>4 года</Experience>
+        <WorkBegin>14:00</WorkBegin>
+        <WorkEnd>22:00</WorkEnd>
+      </Employee>
+    </Employees>
+    <Orders>
+      <Order>
+        <Index>630821</Index>
+        <Description>Аренда Renault Kaptur</Description>
+        <OrderItems>
+          <orderLineItem>
+            <Name>Renault Kaptur New</Name>
+            <CreationDate>2021</CreationDate>
+            <Index>123456</Index>
+            <Producer>France</Producer>
+            <Price>18000</Price>
+            <StockQuantity>1</StockQuantity>
+            <Description>Цвет:черный</Description>
+            <Category>Внедорожник</Category>
+          </orderLineItem>
+        </OrderItems>
+        <TotalPrice>18000</TotalPrice>
+      </Order>
+    </Orders>
+  </shop>
+  <shop>
+	  <Name>Аренда автомобилей на Казанском шоссе</Name>
+	  <PhoneNumber>8-888-555-55-5</PhoneNumber>
+	  <Adress> Нижний Новгород, Казанское шоссе</Adress>
+	  <BeginWork>9:00</BeginWork>
+	  <EndWork>00:00</EndWork>
+    <Cars>
+      <Car>
+        <Name>Toyota Land Cruiser 2013</Name>
+        <CreationDate>2013</CreationDate>
+        <Index>650182</Index>
+        <Producer>Japan</Producer>
+        <Price>30500</Price>
+        <StockQuantity>3</StockQuantity>
+        <Description>Цвет:черный</Description>
+        <Category>Внедорожник</Category>
+      </Car>
+    </Cars>
+    <Employees>
+      <Employee>
+        <Firstname>Аркадий</Firstname>
+        <Lastname>Петров</Lastname>
+        <PhoneNumber>7986345761</PhoneNumber>
+        <Status>Сотрудник</Status>
+        <Experience>7</Experience>
+        <WorkBegin>8:30</WorkBegin>
+        <WorkEnd>17:00</WorkEnd>
+      </Employee>
+    </Employees>
+    <Orders>
+      <Order>
+        <Index>630228</Index>
+        <Description>Заказ</Description>
+        <OrderItems>
+          <orderLineItem>
+            <Name>Toyota Land Cruiser 2013</Name>
+            <CreationDate>2013</CreationDate>
+            <Index>650182</Index>
+            <Producer>Japan</Producer>
+            <Price>30500</Price>
+            <StockQuantity>1</StockQuantity>
+            <Description>Цвет:черный</Description>
+            <Category>Внедорожник</Category>
+          </orderLineItem>
+        </OrderItems>
+        <TotalPrice>30500</TotalPrice>
+      </Order>
+    </Orders>
+  </shop>
+  <shop>
+    <Name>Salon3</Name>
+    <PhoneNumber>79821238765</PhoneNumber>
+    <Website>sitecomp@mail.ru</Website>
+    <Adress>Нижний Новгород</Adress>
+    <BeginWork>10:00</BeginWork>
+    <EndWork>22:00</EndWork>
+    <Cars />
+    <Employees />
+    <Orders />
+  </shop>
+</Base>
